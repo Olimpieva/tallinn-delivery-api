@@ -1,0 +1,19 @@
+.form-error {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: calc(100% + 3px);
+    font-size: 10px;
+    line-height: 1.21;
+    color: #F10E0E;
+    opacity: 0;
+    transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -ms-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+  }
+
+  .form-error_active {
+    opacity: 1;
+  }

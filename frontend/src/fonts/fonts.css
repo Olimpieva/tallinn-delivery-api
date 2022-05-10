@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('MyriadPro-Regular.woff2') format('woff2'),
+       url('MyriadPro-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('MyriadPro-Semibold.woff2') format('woff2'),
+       url('MyriadPro-Semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('Roboto-Regular.woff2') format('woff2'),
+       url('Roboto-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('Roboto-Bold.woff2') format('woff2'),
+       url('Roboto-Bold.woff') format('woff');
+}

@@ -1,0 +1,92 @@
+.header {
+    width: 100%;
+    padding: 16px 17px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_main {
+    display: flex;
+}
+
+.logo_main__image {
+    width: 89px;
+    height: 82px;
+    margin: 13px 0 0 21px;
+    background: url("../../images/logo/main-logo.svg") center no-repeat;
+    cursor: pointer;
+}
+
+.logo_main__text {
+    opacity: 0;
+    pointer-events: none;
+    display: block;
+    align-self: flex-start;
+    font-family: 'Mariad Pro', 'Helvetica', sans-serif;
+    font-size: 21px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.logo_main__text_shown {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.title {
+    padding: 0;
+    margin: 0;
+    align-self: center;
+    font-size: 42px;
+    line-height: 1.18;
+    font-weight: bold;
+}
+
+.title_highlight {
+    color: #FDCC00;
+}
+
+.header__buttons {
+    align-self: right;
+    opacity: 0;
+    pointer-events: none;
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    gap: 0 14px;
+}
+
+.header__buttons_shown {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.header__button_check-order {
+    min-width: 190px;
+    margin: 0 0 11px;
+    padding: 6px;
+    background: #FDCC00;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Mariad Pro', 'Helvetica', sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    align-self: flex-end;
+    cursor: pointer;
+    transition: opacity .3s ease-in-out;
+}
+
+.header__button_exit {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../images/logo/exit-logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: opacity .3s ease-in-out;
+}
+
+.header__button_exit:hover, .header__button_check-order:hover {
+    opacity: .8;;
+}

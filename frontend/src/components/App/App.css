@@ -1,0 +1,25 @@
+.app {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  font-weight: 400;
+  color: #333;
+  background-color: #FFF;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  position: relative;
+  transition: all 0.3s ease-out;
+}
+
+.app__preloader {
+  height: 100vh;
+}

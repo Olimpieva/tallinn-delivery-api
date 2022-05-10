@@ -1,0 +1,27 @@
+
+  .notification-popup__text {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.18;
+    font-weight: 400;
+    text-align: center;
+}
+
+.notification-popup__button {
+    min-width: 254px;
+    min-height: 41px;
+    margin-top: 38px;
+    padding: 6px;
+    background: #FDCC00;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: opacity ease-in-out 0.3s;
+    -moz-transition: opacity ease-in-out 0.3s;
+}
+
+.notification-popup__button:hover {
+    opacity: 0.8;
+}

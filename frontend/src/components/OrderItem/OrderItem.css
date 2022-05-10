@@ -1,0 +1,26 @@
+.order-short-info {
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-short-info__link {
+    text-decoration: none;
+    border: none;
+    color: #000;
+    transition: all 0.2s ease-in-out;
+}
+
+.order-short-info__link:hover {
+    color: #FDCC00;
+}
+
+.order-short-info__item {
+    font-family: 'Mariad Pro', 'Helvetica', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.order-short-info__item_bold {
+    font-weight: 700;
+}
