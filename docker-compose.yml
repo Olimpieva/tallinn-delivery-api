@@ -1,19 +1,19 @@
-version: '3'
+version: "3"
 services:
-  frontend:
-    build: ./frontend
+  mongo:
+    container_name: mongo
+    image: mongo
     ports:
-      - '3000:3000'
-    depends_on:
-      - backend
+      - "27017:27017"
   backend:
     build: ./backend
     ports:
-      - '3001:3001'
-    depends_on:
+      - "3001:3001"
+    links:
       - mongo
-  mongo:
-    image: mongo
+  frontend:
+    build: ./frontend
     ports:
-      - '27017:27017'
-
+      - "3000:3000"
+    depends_on:
+      - backend

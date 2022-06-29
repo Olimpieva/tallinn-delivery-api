@@ -18,7 +18,7 @@ const app = express();
 mongoose.connect(DB_URL);
 
 app.use(express.json());
-app.use(express.urlencoded());
+app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(requestLogger);
 app.use(cors);
